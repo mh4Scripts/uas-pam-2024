@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAS PAM Pengembangan Aplikasi Mobile (Kotlin)</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>UAS PAM Pengembangan Aplikasi Mobile (Kotlin)</h1>
+    </header>
+    <nav>
+        <div id="section-nav">
+            <h2>Buat aplikasi dengan persyaratan dan pertimbangan berikut ini:
+                <a href="#stack">Tech Stack</a>
+                <a href="#api">API</a>
+                <a href="#function">Fungsi</a>
+                <a href="#documentation">Dokumentasi</a>
+                <a href="#bonus">Bonus Pengembangan</a>
+            </h2>
+        </div>
+    </nav>
+    <main>
+        <ul>
+            <li>
+                <h2 id="stack">Tech Stack <i style="color: red;">*25%</i></h2>
+                <ol>
+                    <li>Pola Arsitektur menggunakan MVVM (Model - View - View Model)</li>
+                    <li>SDK Target = 34</li>
+                    <li>Basis Data Lokal dengan Room DB</li>
+                    <li>Layanan API dengan Retrofit</li>
+                    <li>Tambahkan Interceptor HTTP untuk Pencatatan API menggunakan <a target="_blank" href="https://github.com/ChuckerTeam/chucker">Chucker</a></li>
+                    <li>Navigasi dengan Navigation</li>
+                    <li>Paginasi menggunakan Paging2 / Paging3</li>
+                    <li>Pengujian UI aliran dengan API menggunakan MockWebServer</li>
+                    <li>Pengujian Unit beberapa metode / fungsi menggunakan Mockito dengan Fake, Mock, dan Dummy</li>
+                </ol>
+            </li>
+            <li>
+                <h2 id="api">Implementasi API <i style="color: red;">*15%</i></h2>
+                <ol>
+                    <li>Gunakan API publik sebagai sumber data <br>
+                        Daftar API Publik : <br>
+                        <a target="_blank" href="https://pokeapi.co/docs/v2#pokemon">API Pokemon</a> <br>
+                        <a target="_blank" href="https://digimon-api.com/">API Digimon</a> <br>
+                        <a target="_blank" href="https://developer.themoviedb.org/docs">API TheMovieDB</a> <br>
+                        <a target="_blank" href="https://openweathermap.org/api/one-call-3">API OpenWeatherMap</a> <br>
+                        <a target="_blank" href="https://docs.github.com/en/rest/users/users?apiVersion=2022-11-28#get-a-user">API Pengguna GitHub</a> <br>
+                        <a target="_blank" href="https://restcountries.com/">API Negara</a> <br>
+                    </li>
+                    <li>* API lain selain daftar di atas juga memungkinkan, harap minta melalui discord</li>
+                    <li>* Minimum tiga titik akhir API diimplementasikan</li>
+                
+                </ol>
+            </li>
+            <li>
+                <h2 id="function">Fungsi <i style="color: red;">*40%</i></h2>
+                <ol>
+                    <li>Penggunaan OnBoarding dengan Motion Layout</li>
+                    <li>Tampilkan daftar melalui RecyclerView dengan Paginasi (Paging), juga tambahkan fungsi pencarian</li>
+                    <li>Beberapa fungsi dengan Tampilkan daftar, pencarian, dan dapatkan beberapa detail menggunakan API</li>
+                    <li>Tambahkan dan gunakan beberapa fungsi CRUD (Create, Update, Delete) dengan Room DB, misalnya membuat daftar Favorit</li>
+                    <li>Daftarkan dan masuk pengguna dengan otentikasi firebase</li>
+                    <li>Unggah foto dari kamera atau galeri</li>
+                    <li>Implementasikan Crashlytics</li>
+                    <li>Implementasikan Pengujian UI dengan minimal Dua Tes</li>
+                    <li>Implementasikan Pengujian Unit dengan minimal Tiga Metode / Fungsi</li>
+                    <li>Implementasikan Interceptor API Chucker</li>
+                </ol>
+            </li>
+            <li>
+                <h2 id="documentation">Dokumentasi <i style="color: red;">*20%</i></h2>
+                <ol>
+                    <li>Semua Dokumentasi dibuat dalam Bahasa Inggris</li>
+                    <li>Buat Mockup dan Prototyping dari Figma, <a target="_blank" href="https://www.figma.com/community/file/848318135747364351/wireframes-for-mobile-ui-design">Template Contoh</a>  </li>
+                    <li>Buat Dokumentasi Proposal dalam Format PDF, <a target="_blank" href="https://docs.google.com/document/d/1zG_Gr5JeB2FX7GLfD6cBKsDlWuG016RiQow8OQ_-cng/edit?usp=sharing">Template Proposal</a></li>
+                    <li>Buat Readme.md Informatif di GitHub <br>
+                    Contohnya :
+                        Tentang aplikasi
+                        Tech Stack
+                        Daftar fungsi
+                        Prototipe Figma
+                        Berkas GIF
+                        Video YouTube tentang aplikasi 
+                    </li>
+                    <li>Buat Perubahan yang Diunggah Informatif di GitHub</li>
+                    <li>Buat video YouTube yang menggambarkan tentang konten aplikasi</li>
+                </ol>
+            </li>
+            <li>
+                <h2 id="bonus">Bonus Pengembangan <i style="color: red;">*30%</i></h2>
+                <ol>
+                    <li>Kode Bersih (Struktur Proyek, Konvensi Penamaan, Kode Boilerplate Minimum, Pengelolaan Aset)</li>
+                    <li>Pengalaman Pengguna (Animasi, Loading, Aliran)</li>
+                </ol>
+            </li>
+            <li>
+                <h2>Waktu Kerja</h2>
+                <ol>
+                    <li><i>Bentuk tim (3-5 per tim) dan cari ide pengembangan: <b class="urgent">Minggu Libur: Kamis, 11 April 2024</b></i></li>
+                    <li><i>Presentasi rencana proposal proyek: <b class="urgent">Minggu ke-2: Kamis, 18 April 2024</b></i></li>
+                    <li><i>Presentasi prototipe (Figma): <b class="urgent">Minggu ke-3: Kamis, 25 April 2024</b></i></li>
+                    <li><i>Presentasi perkembangan pengembangan: <b class="urgent">Minggu ke-4: Kamis, 02 Mei 2024</b></i></li>
+                    <li><i>Presentasi aplikasi proyek: <b class="urgent">Minggu ke-5: Kamis, 09 Mei 2024</b></i></li>
+                    <li><i>Meningkatkan dan Membersihkan Kode, menyelesaikan Readme.md: <b class="urgent">Minggu ke-6: Kamis, 16 Mei 2024</b></i></li>
+                    <li><i>Presentasi dan membangun File APK: <b class="urgent">Minggu ke-7: Kamis, 23 Mei 2024</b></i></li>
+                </ol>
+            </li>
+            <li>
+                <h2>Komponen Penilaian</h2>
+                <table>
+                    <tbody><tr>
+                        <th>Kriteria</th>
+                        <th>Bobot</th>
+                    </tr>
+                    <tr>
+                        <td>Tech Stack</td>
+                        <td>25%</td>
+                    </tr>
+                    <tr>
+                        <td>Implementasi API</td>
+                        <td>15%</td>
+                    </tr>
+                    <tr>
+                        <td>Fungsi</td>
+                        <td>40%</td>
+                    </tr>
+                    <tr>
+                        <td>Dokumentasi</td>
+                        <td>20%</td>
+                    </tr>
+                    <tr>
+                        <td>Bonus Pengembangan</td>
+                        <td>30%</td>
+                    </tr>
+                </tbody></table>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        Dosen Pengembangan Aplikasi Mobile ITERA © 2024
+    </footer>
+
+
+</body></html>
